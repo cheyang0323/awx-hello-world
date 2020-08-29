@@ -1,6 +1,6 @@
 ---
 - name: Ansible Tower Implementation Part 1 Lab1
-  hosts:
+  hosts: all
   tasks:
   - name: Hello Message
     debug:
